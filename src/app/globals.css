@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.b {
+    border: 1px solid black;
+}
+
+input,
+input:focus {
+    @apply outline-none
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+
+.b{
+    border:  2px solid red;
+}
+
+.header .active{
+    border-bottom: 3px solid white;
+}
+/* .swiper{
+    z-index: -1 !important;
+} */
+
+

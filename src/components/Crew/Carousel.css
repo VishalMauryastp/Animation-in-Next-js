@@ -1,0 +1,18 @@
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: fit-content !important;
+
+  height: fit-content !important;
+  @media (max-width: 830px) {
+    top: 0 !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  background: white;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: white;
+}
